@@ -1,0 +1,50 @@
+@import "../../../../scss/config/variables";
+
+.select-box-dropdown {
+
+   &__flex {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+   
+      position: absolute;
+      top: 40px;
+   
+      padding: 10px;
+   
+      background-color: #fff;
+      border-radius: 10px;
+   
+      -webkit-box-shadow: 0px 0px 10px 4px rgba(34, 60, 80, 0.2);
+      -moz-box-shadow: 0px 0px 10px 4px rgba(34, 60, 80, 0.2);
+      box-shadow: 0px 0px 10px 4px rgba(34, 60, 80, 0.2);
+   
+      max-height: 220px;
+      overflow: scroll;
+      overflow-x: hidden;
+   }
+
+   &__grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(8, 1fr);
+      grid-column-gap: 5px;
+      grid-row-gap: 5px;
+   
+      position: absolute;
+      top: 40px;
+   
+      padding: 10px;
+   
+      background-color: #fff;
+      border-radius: 10px;
+   
+      -webkit-box-shadow: 0px 0px 10px 4px rgba(34, 60, 80, 0.2);
+      -moz-box-shadow: 0px 0px 10px 4px rgba(34, 60, 80, 0.2);
+      box-shadow: 0px 0px 10px 4px rgba(34, 60, 80, 0.2);
+   
+      max-height: 220px;
+      overflow: scroll;
+      overflow-x: hidden;
+   }
+}

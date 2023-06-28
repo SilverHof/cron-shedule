@@ -1,0 +1,29 @@
+@import "../../scss/config/variables";
+
+.schedule {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+
+   &__save-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      // width: 100px;
+      padding: 5px 20px;
+      border-radius: 5px;
+      background-color: #008cff;
+      color: white;
+   }
+
+   &__reset-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      // width: 100px;
+      padding: 5px 20px;
+      border-radius: 5px;
+      background-color: #ff4d4f;
+      color: white;
+   }
+}

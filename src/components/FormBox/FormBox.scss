@@ -1,0 +1,69 @@
+@import "../../scss/config/settings";
+
+.form-box {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   &__field {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      height: 26px;
+      padding: 0px 10px;
+      border: 2px solid rgb(195, 195, 195);
+      border-radius: 5px;
+
+      font-size: 16px;
+
+      -ms-user-select: none; 
+		-moz-user-select: none; 
+		-webkit-user-select: none; 
+		user-select: none; 
+   }
+
+   &__load-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100px;
+      height: 26px;
+      padding: 5px 0px;
+      border-radius: 5px;
+      background-color: #008cff;
+      color: white;
+   }
+
+   &__copy-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100px;
+      height: 26px;
+      padding: 5px 0px;
+      border-radius: 5px;
+      background-color: #008cff;
+      color: white;
+   }
+
+   &__custom-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100px;
+      padding: 5px 0px;
+      border-radius: 5px;
+      background-color: #ff4d4f;
+      color: white;
+   }
+
+   &__clear-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100px;
+      padding: 5px 0px;
+      border-radius: 5px;
+      background-color: #ff4d4f;
+      color: white;
+   }
+}

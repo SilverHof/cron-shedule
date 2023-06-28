@@ -1,0 +1,109 @@
+@import "../../../../scss/config/variables";
+
+.select-box {
+   position: relative;
+
+   &__field {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+
+      padding: 5px 10px;
+      border: 1px solid rgb(195, 195, 195);
+      border-radius: 5px;
+      background-color: #fff;
+
+      font-size: 14px;
+
+      cursor: pointer;
+
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      -o-user-select: none;
+      user-select: none;
+      transition: 0.2s;
+
+      &_error {
+         display: flex;
+         align-items: center;
+         gap: 5px;
+
+         padding: 5px 10px;
+         border: 1px solid rgb(236, 47, 47);
+         border-radius: 5px;
+         background-color: #ffdada;
+
+         font-size: 14px;
+
+         cursor: pointer;
+
+         -webkit-user-select: none;
+         -khtml-user-select: none;
+         -moz-user-select: none;
+         -ms-user-select: none;
+         -o-user-select: none;
+         user-select: none;
+         transition: 0.2s;
+      }
+
+      &:hover {
+         transition: 0.2s;
+         border: 1px solid rgb(0, 85, 255);
+      }
+   }
+
+   &__button-box {
+      position: relative;
+      width: 15px;
+      height: 15px;
+   }
+
+   &__delete-button {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 15px;
+      height: 15px;
+
+      background-color: #fff;
+      transition: 0.2s;
+
+      &_error {
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 15px;
+         height: 15px;
+         background-color: #ffdada;
+         transition: 0.2s;
+      }
+   }
+
+   &__arrow-button {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 15px;
+      height: 15px;
+
+      background-color: #fff;
+      transition: 0.2s;
+
+      &_error {
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 15px;
+         height: 15px;
+         background-color: #ffdada;
+         transition: 0.2s;
+      }
+   }
+
+   &__button-image {
+      width: 15px;
+      height: 15px;
+   }
+}

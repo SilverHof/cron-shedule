@@ -1,0 +1,64 @@
+@import "../../../../scss/config/variables";
+
+.select-box-dropdown-item {
+   &__square {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+      border-radius: 5px;
+
+      -ms-user-select: none;
+      -moz-user-select: none;
+      -webkit-user-select: none;
+      user-select: none;
+      &_active {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+
+         width: 30px;
+         height: 30px;
+
+         cursor: pointer;
+         background-color: rgb(128, 199, 253);
+         border-radius: 5px;
+         -ms-user-select: none; 
+			-moz-user-select: none; 
+			-webkit-user-select: none; 
+			user-select: none; 
+      }
+
+      &:hover {
+         background-color: rgb(235, 235, 235);
+         border-radius: 5px;
+      }
+   }
+
+   &__row {
+      padding: 7px 10px;
+      cursor: pointer;
+      &_active {
+         padding: 7px 10px;
+         cursor: pointer;
+         background-color: rgb(128, 199, 253);
+         border-radius: 5px;
+         -ms-user-select: none; 
+			-moz-user-select: none; 
+			-webkit-user-select: none; 
+			user-select: none; 
+      }
+
+      &:hover {
+         background-color: rgb(235, 235, 235);
+         border-radius: 5px;
+         -ms-user-select: none; 
+			-moz-user-select: none; 
+			-webkit-user-select: none; 
+			user-select: none; 
+      }
+   }
+}

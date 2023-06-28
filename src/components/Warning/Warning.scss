@@ -1,0 +1,15 @@
+@import "../../scss/config/variables";
+
+.warning {
+
+   &__text {
+      
+   }
+
+   &__text-special {
+      padding: 5px 10px;
+      background-color: rgb(255, 65, 65);
+      border-radius: 5px;
+      color: #fff;
+   }
+}
